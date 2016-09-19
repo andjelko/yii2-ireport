@@ -1,0 +1,22 @@
+{
+    "name": "andjelko/yii2-ireport",
+    "description": "Yii2 ireport jasper jasperserver jasperreport reports.",
+    "keywords": ["yii2", "jasper", "ireport", "reports"],
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Milos Andjelkovic",
+            "homepage": "http://racunsoft.com/",
+            "email": "admin@racunsoft.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.*",
+        "yiisoft/yii2-debug": "2.*"
+    },
+    "autoload": {
+        "psr-4": {"andjelko\\ireport\\": ""}
+    }
+}
