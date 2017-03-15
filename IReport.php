@@ -50,7 +50,7 @@ class IReport extends Component{
         $IRender->provider = new IReportProviderDB(Yii::$app->db);
         $IRender->outpage = $outpage;
         $IRender->filename = $filename;
-        $IRender->execute();
+        return $IRender->execute();
     }
 
 }
