@@ -3,7 +3,7 @@
     "description": "Yii2 ireport jasper jasperserver jasperreport reports.",
     "keywords": ["yii2", "jasper", "ireport", "reports"],
     "type": "yii2-extension",
-    "license": "BSD 3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "Milos Andjelkovic",
